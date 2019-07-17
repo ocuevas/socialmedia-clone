@@ -110,3 +110,33 @@ div.right-menu ul li a {
     font-size: 20px;
 }
 
+
+/*Main Container */
+
+div.main-container {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    
+}
+
+div.left-col {
+    height: 100vh;
+    background-color: aquamarine;
+    flex-grow:1;
+    flex-basis: 10%;
+}
+
+main.main-content {
+    height: 100vh;
+    flex-grow: 2;
+    flex-basis: 30%;
+    background-color: royalblue;
+    margin: 0 25px;
+}
+
+div.right-col  {
+    height: 100vh;
+    flex-grow:1;
+    background-color: rebeccapurple;
+}
